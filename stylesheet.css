@@ -51,6 +51,9 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
+@font-face {
+  font-family: "Dead-Kansas";
+  src: url("Dead-Kansas.ttf"); }
 html {
   height: 100%; }
 
@@ -59,13 +62,15 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 100vh;
-  font-family: "Roboto", sans-serif;
   display: flex;
+  font-family: "Roboto", Sans Serif;
   flex-flow: column;
   padding: 2em; }
 
-h1, .next-quote {
-  font-size: 25px; }
+h1 {
+  font-size: 2.5em;
+  font-family: "Dead-Kansas";
+  color: #2b2b2b; }
 
 .quotes {
   position: fixed;
@@ -93,6 +98,7 @@ h1, .next-quote {
   margin-top: 2em;
   border-radius: 50%;
   width: 163px;
+  font-size: 1.5em;
   height: 163px; }
 
 /*# sourceMappingURL=stylesheet.css.map */
