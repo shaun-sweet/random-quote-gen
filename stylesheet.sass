@@ -6,7 +6,7 @@ html
 body
     background-image: url("abraham.png")
     background-repeat: no-repeat
-    background-size: auto auto
+    background-size: cover
     min-height: 100vh
     font-family: "Roboto", sans-serif
     display: flex
@@ -16,26 +16,29 @@ h1, .next-quote
     font-size: 25px
     
 .quotes
+    position: fixed
+    bottom: 1em
+    align-self: center
     font-size: 43px
     border-radius: 6px
     box-shadow: -6px 5px 4px rgba(0,0,0,0.6)
     border: solid 1px #979797
     background-color: rgba(216, 216,216, 0.32)
     padding: 1em
-    margin-top: 7em
     margin-left: auto
     margin-right: auto
     max-width: 670px
     
 .next-quote
+    cursor: pointer
     display: flex
     flex-flow: column
     justify-content: center
     align-items: center
-    box-shadow: -6px 5px 4px rgba(0,0,0,0.5)
+    box-shadow: -4px 5px 4px rgba(0,0,0,0.5)
     background-color: rgba(216, 216,216, 0.32)
     border: solid 1px #979797
-    margin-top: 6em
+    margin-top: 2em
     border-radius: 50%
     width: 163px
     height: 163px
