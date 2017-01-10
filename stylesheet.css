@@ -71,7 +71,7 @@ h1, .next-quote {
   position: fixed;
   bottom: 1em;
   align-self: center;
-  font-size: 43px;
+  font-size: 35px;
   border-radius: 6px;
   box-shadow: -6px 5px 4px rgba(0, 0, 0, 0.6);
   border: solid 1px #979797;
