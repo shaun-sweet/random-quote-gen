@@ -20,6 +20,8 @@ $(document).ready(function () {
            $(this).css({
                "box-shadow":  "-4px 5px 4px rgba(0, 0, 0, 0.5)"  
             });
-           $(".quotes").html(quotes[Math.floor(Math.random()*quotes.length)]);
+           var nextQuote = quotes[Math.floor(Math.random()*quotes.length)];
+           
+           $(".quotes").html(nextQuote +"<br> <a style='margin-top: 0.4em' class='twitter-share-button' href='https://twitter.com/intent/tweet?text="+nextQuote + " - http://abraham-quotes.shaunsweet.com' data-size='large'><img src='twitter.png'></a>");
    })
 });
